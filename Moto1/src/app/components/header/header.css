@@ -1,0 +1,14 @@
+header{
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a{
+  color: white;
+  margin: 3px 10px;
+  text-decoration: none ;
+  padding: 10px 20px;
+}
+
+
