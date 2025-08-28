@@ -5,9 +5,10 @@
 
 }
 
-.gral p{
+.gral h4{
     display: inline-block;
     margin: 5px 45px;
     font-size: 16px;
     max-width: 300px;
+  background: #023333;
   }

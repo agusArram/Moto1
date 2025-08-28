@@ -11,4 +11,10 @@ nav a{
   padding: 10px 20px;
 }
 
+nav a:hover{
+  background-color: #fff;
+  color: #052b2b;
+  border-radius: 15px;
+}
+
 

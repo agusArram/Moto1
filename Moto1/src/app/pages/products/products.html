@@ -1,1 +1,13 @@
-<p>products works!</p>
+<h1>Prodcutos</h1>
+<section class = "prductos">
+
+  @for(product of products; track product.id ){
+    <article class = "producto">
+      <img [src]="product.img" [alt]="product.name">
+      <h3>{{product.name}}</h3>
+      <p>{{product.description}}</p>
+      <strong>{{product.price}}</strong>
+      <button>Ver mas</button>
+    </article>
+  }
+</section>
