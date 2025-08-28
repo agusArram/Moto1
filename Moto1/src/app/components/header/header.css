@@ -1,12 +1,12 @@
 header{
-  background-color: aqua;
+  background-color: #052b2b;
   padding: 20px;
   text-align: center;
 }
 
 nav a{
   color: white;
-  margin: 3px 10px;
+  margin: 3px 20px;
   text-decoration: none ;
   padding: 10px 20px;
 }

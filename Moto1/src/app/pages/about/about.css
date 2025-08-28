@@ -1,0 +1,30 @@
+.titulo{
+  text-align: center;
+  padding: 25px;
+
+}
+.inicio {
+  display: flex;
+  flex-wrap: wrap;       /* Permite que se vayan a la siguiente línea */
+  justify-content: center; /* Centra en el eje X */
+  align-items: center;     /* Centra en el eje Y */
+  gap: 25px;               /* Espacio entre los elementos */
+  padding: 25px;
+  margin: 0 150px;
+}
+
+.inicio p {
+  display: flex;           /* Para que el texto dentro quede centrado también */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 330px;
+  height: 180px;
+  padding: 10px;
+  font-size: 16px;
+
+  background: #023333;
+  border-radius: 12px;
+  box-shadow: 1px 1px 4px 2px #5a86da;
+}
