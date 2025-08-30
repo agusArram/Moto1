@@ -44,6 +44,20 @@ export class Products {
       description: 'Moderna y económica',
       price: 13900,
       img: '/img/suzuki-1200.jpg'
+    },
+    {
+      id: 5,
+      name: 'Suzuki 1200',
+      description: 'Moderna y económica',
+      price: 13900,
+      img: '/img/kawasaky-kx250.jpg'
+    },
+    {
+      id: 4,
+      name: 'Suzuki 1200',
+      description: 'Moderna y económica',
+      price: 13900,
+      img: '/img/honda-transalp.jpg'
     }
   ];
 

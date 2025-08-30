@@ -1,12 +1,12 @@
 <h1>Prodcutos</h1>
-<section class = "prductos">
+<section class = "containerProducts">
 
   @for(product of products; track product.id ){
     <article class = "producto">
       <img [src]="product.img" [alt]="product.name">
       <h3>{{product.name}}</h3>
       <p>{{product.description}}</p>
-      <strong>{{product.price}}</strong>
+      <p><strong>{{product.price}}</strong></p>
       <button>Ver mas</button>
     </article>
   }
